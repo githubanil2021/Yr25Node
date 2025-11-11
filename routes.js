@@ -6,7 +6,7 @@
    if(req.url==='/')
    {
    res.write('<html>');
-   res.write('<h1>Enter Title</h1>');
+   res.write('<h1>Enter  Title</h1>');
    res.write('<form action="/messages" method="POST"><input type="text" name="message" ><input type="text" name="age" ><button type="submit">Send</button></form> ');
    res.write('</html>');
    return res.end();
@@ -37,7 +37,7 @@
 
    res.setHeader('Content-Type', 'text/html');
    res.write('<html>');
-   res.write('<h1>Hello again</h1>');
+   res.write('<h1>Hello  j again </h1>');
    res.write('</html>');
    res.end();
  

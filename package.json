@@ -1,0 +1,25 @@
+{
+  "name": "yr25node",
+  "version": "1.0.0",
+  "description": "Com guide",
+  "homepage": "https://github.com/githubanil2021/Yr25Node#readme",
+  "bugs": {
+    "url": "https://github.com/githubanil2021/Yr25Node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubanil2021/Yr25Node.git"
+  },
+  "license": "ISC",
+  "author": "AK",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
